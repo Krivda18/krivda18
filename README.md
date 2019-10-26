@@ -50,9 +50,9 @@ Private leagues currently only work with the NodeJS version of this project, due
 ### ESPN API Conventions
 
 * `leagueId` is the id for your league.
-  * Example: `387659`
+  * Example: `394514`
 * `seasonId` matches the year in which the season was played.
-  * Example: `2018`
+  * Example: `2019`
 * `matchupPeriod` refers to an entire match-up, including if the match-up lasts multiple weeks (not rare in playoff settings for smaller leagues).
   * Example: `3` refers to the third matchup in your league.
 * `scoringPeriod` refers to a single NFL week. Since most matchups are 1 week long, the `scoringPeriod` will typically match the `matchupPeriod`. However, for multi-week matchups, `scoringPeriod` allows one to get information about a specific week in the match-up (useful in multi-week playoff match-up).
